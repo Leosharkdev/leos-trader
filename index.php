@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -13,31 +13,48 @@
 <body>
     <header>
         <div>
-            <img src="assets/img/leostrader-low-resolution-logo-black-on-transparent-background.png" alt="" width="30%"
-                height="30%">
 
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Active</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
+            <nav class="navbar navbar-light bg-light">
 
-            </ul>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/leostrader-low-resolution-logo-black-on-transparent-background.png" alt=""
+                        width="30%" height="30%">
+                </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </nav>
         </div>
 
     </header>
     <main>
         <section class="container">
-            <div class="p-3 mb-2 bg-black text-white">
-                <img src="assets/img/trader.png.png" class="img-thumbnail" width="40%" height="40%">
+            <div class="row p-3 mb-2 bg-black ">
+                <img src="assets/img/trader.png.png" class="img-thumbnail col-sm-4" width="40%" height="40%">
+                <div class="col-sm-8">
+                    <h1 class="text-primary ">SEJA UM TRADER</h1>
+                    <p class="text-light "> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi qui quis aut
+                        nisi corrupti sed nihil
+                        cupiditate reiciendis repudiandae. Sunt libero voluptate repellat amet aut voluptatibus dicta
+                        eveniet
+                        cumque iure.</p>
+                </div>
             </div>
 
         </section>
