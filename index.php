@@ -117,8 +117,7 @@
   </div>
   <div class="col-md-6">
     <label for="inputPassword4" class="form-label">Password</label>
-    <input type="password" class="form-control" id="inputPassword4">
-  </div>
+    
   <div class="col-12">
     <label for="inputAddress" class="form-label">Address</label>
     <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
@@ -180,6 +179,18 @@
 </div>
     </footer>
 
+    <script>
+console.log('hello word jf')
+
+var var1 = 4;
+var var2 = 10;
+const VAR3= 2;
+var resultado= var1 * var2* + VAR3
+
+console.log('resultado', var1 * var2* + VAR3)
+    </script>
+
+    
 
 </body>
 
